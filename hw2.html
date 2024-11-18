@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>41047012s Hw2</title>
+    <link rel="stylesheet" href="hw2.css">
+</head>
+<body>
+    <header>
+        <h1>OWO</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showSection('home')">Home</a></li>
+            <li><a href="#" onclick="showSection('resume')">Resume</a></li>
+            <li><a href="#" onclick="showSection('multimedia')">Media</a></li>
+            <li><a href="#" onclick="showSection('graphics')">Graphics</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="content-section">
+        <h2>About Me</h2>
+        <p>41047012s 簡碩辰 Hw2 HTML Website</p>
+        <img src="jennie.jpg" alt="Welcome!" class="profile-image">
+    </section>
+
+    <section id="resume" class="content-section" style="display: none;">
+        <h2>履歷</h2>
+        <table>
+            <tr>
+                <th colspan="4" style="text-align: center">基本資料</th>
+            </tr>
+            <tr>
+                <td class="section-title">姓名</td>
+                <td>簡碩辰</td>
+                <td class="section-title">應徵職務</td>
+                <td>軟體工程師</td>
+            </tr>
+            <tr>
+                <td class="section-title">手機</td>
+                <td>0912345678</td>
+                <td class="section-title">出生日期</td>
+                <td>2003/04/05</td>
+            </tr>
+            <tr>
+                <td class="section-title">Email</td>
+                <td>41047012s@gapps.ntnu.edu.tw</td>
+                <td class="section-title">最高學歷</td>
+                <td>學士</td>
+            </tr>
+            <tr>
+                <td class="section-title">通訊地址</td>
+                <td colspan="3">新北市XX區XX街XX號X樓</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>公司名稱</th>
+                <th>職務</th>
+                <th>時間</th>
+                <th>描述</th>
+            </tr>
+            <tr>
+                <td>ABC科技公司</td>
+                <td>軟體工程師</td>
+                <td>2020/07 ~ 2023/06</td>
+                <td>負責公司內部系統的開發與維護</td>
+            </tr>
+            <tr>
+                <td>DEF軟體設計公司</td>
+                <td>網頁設計師</td>
+                <td>2018/01 ~ 2020/06</td>
+                <td>設計並開發公司外部網站</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th colspan="4" style="text-align: center">工作技能與專長</th>
+            </tr>
+            <tr>
+                <td class="section-title">語言能力</td>
+                <td colspan="3">中文, 英文</td>
+            </tr>
+            <tr>
+                <td class="section-title">電腦能力</td>
+                <td colspan="3">C, JavaScript, Python, MySQL</td>
+            </tr>
+            <tr>
+                <td class="section-title">專業技能</td>
+                <td colspan="3">軟體開發, 網頁設計</td>
+            </tr>
+            <tr>
+                <td class="section-title">駕照</td>
+                <td colspan="3">汽車駕照</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th colspan="7" style="text-align: center">可配合時段</th>
+            </tr>
+            <tr>
+                <td class="section-title">週一</td>
+                <td class="section-title">週二</td>
+                <td class="section-title">週三</td>
+                <td class="section-title">週四</td>
+                <td class="section-title">週五</td>
+                <td class="section-title">週六</td>
+                <td class="section-title">週日</td>
+            </tr>
+            <tr>
+                <td>可</td>
+                <td>可</td>
+                <td>可</td>
+                <td>可</td>
+                <td>可</td>
+                <td>不可</td>
+                <td>不可</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="graphics" class="content-section" style="display: none;">
+        <h1>尊貴的T1五冠粉絲</h1>
+        <svg width="900" height="500" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 150 150 C 159 175 190 197 210 200 L 500 200 L 417 400 C 409 423 435 439 452 445 L 555 200 C 583 197 602 170 605 150 Z M 210 220 C 209 241 235 254 254 254 L 451 254 L 465 220 Z M 254 274 C 259 296 278 305 295 308 L 429 308 L 444 273 Z M 295 328 C 297 346 313 361 329 361 L 407 361 L 421 328 Z M 635 150 C 626 173 614 198 585 200 L 630 200 L 540 400 C 531 424 558 437 575 445 L 700 150 Z
+            M 228 75 L 220 93 H 201 L 217 106 L 212 126 L 228 113 L 245 126 L 239 106 L 256 93 L 236 93 Z M 328 75 L 320 93 H 301 L 317 106 L 312 126 L 328 113 L 345 126 L 339 106 L 356 93 L 336 93 Z M 428 75 L 420 93 H 401 L 417 106 L 412 126 L 428 113 L 445 126 L 439 106 L 456 93 L 436 93 Z M 528 75 L 520 93 H 501 L 517 106 L 512 126 L 528 113 L 545 126 L 539 106 L 556 93 L 536 93 Z M 628 75 L 620 93 H 601 L 617 106 L 612 126 L 628 113 L 645 126 L 639 106 L 656 93 L 636 93 Z" fill="#EA0000"/>
+        </svg>
+    </section>
+    <section id="multimedia" class="content-section" style="display: none;">
+        <h2>NCS Live Radio (<a href="https://www.youtube.com/watch?v=oWW5TLrrbNo" target="_blank">Link</a>)</h2>
+        <iframe width="900" height="506" src="https://www.youtube.com/embed/oWW5TLrrbNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2024 | Designed by 41047012s 簡碩辰</p>
+    </footer>
+
+    <script src="hw2.js"></script>
+</body>
+</html>
