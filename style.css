@@ -47,6 +47,7 @@ nav ul li a:hover {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 900px;
+    width: 100%; /* 讓內容區域寬度自適應 */
 }
 
 .profile-image {
@@ -105,4 +106,48 @@ ul li {
 
 .content-section[style*="display: none;"] {
     display: none;
+}
+
+/* 響應式設計：手機或平板裝置 */
+@media (max-width: 768px) {
+    /* 調整導航欄的排列 */
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    /* 調整內容區域的內邊距 */
+    .content-section {
+        padding: 15px;
+    }
+
+    /* 調整表格顯示方式 */
+    table {
+        width: 100%;
+        overflow-x: auto;
+        display: block;
+    }
+
+    th, td {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    /* 讓圖片自動調整大小 */
+    .profile-image {
+        width: 100%; /* 讓圖片寬度為100% */
+    }
+
+    /* 底部固定位置 */
+    .footer {
+        position: relative;
+        bottom: auto;
+    }
+}
+
+/* 用於桌面設備，避免表格顯示錯誤 */
+@media (min-width: 769px) {
+    .content-section {
+        width: 80%; /* 更大的螢幕可以使用較大的內容區域 */
+    }
 }
