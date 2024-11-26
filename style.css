@@ -41,6 +41,7 @@ nav ul li a:hover {
 }
 
 .content-section {
+    width: 90%;
     padding: 20px;
     margin: 20px auto;
     background-color: white;
