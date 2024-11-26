@@ -4,9 +4,6 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     padding-bottom: 50px;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 
 header {
@@ -104,32 +101,8 @@ ul li {
     position: fixed;
     bottom: 0;
     width: 100%;
-    position: relative; 
 }
 
 .content-section[style*="display: none;"] {
     display: none;
-}
-
-@media (max-width: 768px) {
-    .content-section svg {
-        width: 100%;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-    }
-}
-
-@media (max-width: 768px) {
-    table {
-        width: 100%;
-        overflow-x: auto;
-        display: block;
-        margin-bottom: 20px;
-    }
-
-    th, td {
-        padding: 8px;
-        text-align: left;
-    }
 }
